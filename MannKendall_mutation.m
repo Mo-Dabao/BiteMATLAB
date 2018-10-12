@@ -1,6 +1,4 @@
 % Mann-Kendall突变检验
-% 纪丞
-% 2018/4/6
 
 % ts为时间向量
 % tsData为与ts对应的待进行Mann-Kendall趋势检验的数据
@@ -9,6 +7,9 @@
 % record为2列矩阵，
 % 第一列为发生或即将发生突变（交点）的时间点，第二列为交点纵坐标
 % UF、UB为两条曲线的值
+
+% 墨大宝
+% 2018/4/6
 
 function [record, UF, UB] = MannKendall_mutation(ts, tsData, figureTitle)
     if nargin < 3
